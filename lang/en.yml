@@ -1,0 +1,35 @@
+en:
+  Gallery:
+    MenuTitle: 'Gallery Categories'
+    Next: Next
+    Prev: Prev
+  GalleryHolderPage:
+    DESCRIPTION: 'Generic content page'
+    PLURALNAME: 'Gallery Holder Pages'
+    SINGULARNAME: 'Gallery Holder Page'
+  GalleryImage:
+    PLURALNAME: 'Gallery Images'
+    SINGULARNAME: 'Gallery Image'
+  GalleryPage:
+    DESCRIPTION: 'Generic content page'
+    GalleryImages: 'Gallery Images'
+    PLURALNAME: 'Gallery Pages'
+    SINGULARNAME: 'Gallery Page'
+  GallerySettings:
+    DefaultSubHeading: 'Default Sub Heading'
+    FeaturedHeight: 'Featured Image Height'
+    FeaturedWidtht: 'Featured Image Width'
+    FullHeight: 'Full Image Height'
+    FullWidth: 'Full Image Width'
+    GallerySize: 'Gallery Pagination Size'
+    MenuHeight: 'Menu Icon Height'
+    MenuWidth: 'Menu Icon Width'
+    ThumbHeight: 'Thumbnail Height'
+    ThumbWidth: 'Thumbnail Width'
+  GalleryTreePage:
+    DESCRIPTION: 'Generic content page'
+    PLURALNAME: 'Gallery Tree Pages'
+    SINGULARNAME: 'Gallery Tree Page'
+  SiteTree:
+    PLURALNAME: Pages
+    SINGULARNAME: Page
