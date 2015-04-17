@@ -61,9 +61,4 @@ class GalleryPage_Controller extends GalleryTreePage_Controller {
     public function init() {
         parent::init();
     }
-	public function PaginatedGalleryImages() {
-		$GalleryImages = new PaginatedList($this->dataRecord->GalleryImages(), $this->request);
-		$GalleryImages->setPageLength(($this->dataRecord->GallerySize()? $this->dataRecord->GallerySize():$GalleryImages->TotalItems));
-		return $GalleryImages;
-	}
 }

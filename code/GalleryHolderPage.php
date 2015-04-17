@@ -54,9 +54,14 @@ class GalleryHolderPage extends GalleryTreePage {
 	public function GalleryImages() {
 		return $this->getAllGalleryImages();
 	}
-	public function PaginatedGalleryImages() {
-		return new PaginatedList($this->GalleryImages(), $this->request);
+	public function GallerySize(){
+		return $this->GallerySize;
 	}
 }
 class GalleryHolderPage_Controller extends GalleryTreePage_Controller {
+	public function PaginatedGalleryImages() {
+		$GalleryImages = new PaginatedList($this->dataRecord->GalleryImages(), $this->request);
+		$GalleryImages->setPageLength(($this->dataRecord->GallerySize()? $this->dataRecord->GallerySize():$GalleryImages->TotalItems));
+		return $GalleryImages;
+	}
 }
