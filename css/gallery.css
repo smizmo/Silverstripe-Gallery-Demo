@@ -183,3 +183,15 @@ display: block;
 max-height: 100%;
 margin: auto;
 }
+.gallery-widget ul
+{
+/* using important to overcome .typography css rules */
+list-style-type: none !important;
+padding: 0;
+margin: 0 !important;
+}
+.gallery-widget ul li
+{
+/* using important to overcome .typography css rules */
+list-style-type: none !important;
+}
